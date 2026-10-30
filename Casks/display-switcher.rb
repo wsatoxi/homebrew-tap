@@ -7,7 +7,7 @@ cask "display-switcher" do
   desc "Switch display modes (Extend / Only / Mirror) with one shortcut"
   homepage "https://github.com/wsatoxi/DisplaySwitcher"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Display Switcher.app"
 
